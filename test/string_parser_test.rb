@@ -19,7 +19,7 @@ class PasswordCheckerTest < Minitest::Test
   end
 
   def test_return_string_with_letters_appearing_twice
-    assert_equal 21, @sp.contain_letters_appearing_twice
+    assert_equal 5, @sp.contain_letters_appearing_twice
   end
 
 end
