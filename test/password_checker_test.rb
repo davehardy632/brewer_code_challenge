@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require './lib/password_checker'
+require_relative '../lib/password_checker'
 require 'json'
 require 'pry'
 
